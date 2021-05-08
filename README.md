@@ -1,9 +1,12 @@
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-orange.svg)](https://www.paypal.me/rauldose)
+
 # furlanSQL
 SQL par Furlan 
 
 ![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Bandiere_dal_Fri%C3%BBl.svg/492px-Bandiere_dal_Fri%C3%BBl.svg.png)
 
-inspired by [GomorraSql](https://raw.githubusercontent.com/aurasphere/gomorra-sql)
+inspired by [GomorraSql](https://github.com/aurasphere/gomorra-sql)
 
 ## Set up
 furlanSQL can be used either as a C# library or as a standalone SQL database client.
