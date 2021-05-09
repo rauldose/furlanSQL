@@ -11,6 +11,39 @@ inspired by [GomorraSql](https://github.com/aurasphere/gomorra-sql)
 ## Set up
 furlanSQL can be used either as a C# library or as a standalone SQL database client.
 
+## Language reference
+Follows a table that roughly maps GomorraSQL language to standard SQL:
+
+| furlanSQL keyword              | SQL equivalent    | Valid in...            |
+|--------------------------------|-------------------|------------------------|
+| cjape su                       | SELECT            | SELECT                 |
+| fa e disfa                     | UPDATE            | UPDATE                 |
+| pare                           | INSERT            | INSERT                 |
+| dentri                         | INTO              | INSERT                 |
+| are vie                        | DELETE            | DELETE                 |
+| di rif o di raf                | INNER JOIN        | SELECT                 |
+| dal cjossul                    | FROM              | SELECT, DELETE         |
+| dut                            | *                 | SELECT                 |
+| dula                           | WHERE             | SELECT, UPDATE, DELETE |
+| e                              | AND               | ANY WHERE CLAUSE       |
+| o                              | OR                | ANY WHERE CLAUSE       |
+| nie                            | NULL              | ANY WHERE CLAUSE       |
+| al e                           | IS                | ANY WHERE CLAUSE       |
+| nol e                          | IS NOT            | ANY WHERE CLAUSE       |
+| chist                          | VALUES            | INSERT                 |
+| cussi                          | SET               | UPDATE                 |
+| come                           | = (assignment)    | UPDATE                 |
+| >                              | >                 | ANY WHERE CLAUSE       |
+| <                              | <                 | ANY WHERE CLAUSE       |
+| = (comparison)                 | = (comparison)    | ANY WHERE CLAUSE       |
+| !=                             | !=                | ANY WHERE CLAUSE       |
+| <>                             | <>                | ANY WHERE CLAUSE       |
+| <=                             | <=                | ANY WHERE CLAUSE       |
+| >=                             | >=                | ANY WHERE CLAUSE       |
+| taconiti                       | ROLLBACK          | TRANSACTION            |
+| daur man                       | COMMIT            | TRANSACTION            |
+| tache bande                    | BEGIN TRANSACTION | TRANSACTION            |
+
 ## Supported Database
 furlanSQL has been quickly tested with SQLite in memory. Other databases may not work properly.
 
