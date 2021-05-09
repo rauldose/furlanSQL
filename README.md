@@ -12,7 +12,7 @@ inspired by [GomorraSql](https://github.com/aurasphere/gomorra-sql)
 furlanSQL can be used either as a C# library or as a standalone SQL database client.
 
 ## Language reference
-Follows a table that roughly maps GomorraSQL language to standard SQL:
+Follows a table that roughly maps FurlanSQL language to standard SQL:
 
 | furlanSQL keyword              | SQL equivalent    | Valid in...            |
 |--------------------------------|-------------------|------------------------|
